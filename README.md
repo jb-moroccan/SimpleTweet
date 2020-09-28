@@ -38,10 +38,10 @@ The following **required** functionality is completed:
   - [x] User is taken back to home timeline with **new tweet visible** in timeline
   - [x] Newly created tweet should be manually inserted into the timeline and not rely on a full refresh
   - [x] User can **see a counter with total number of characters left for tweet** on compose tweet page
+- [x] User is using **"Twitter branded" colors and styles**
 
 The following **optional** features are implemented:
 
-- [x] User is using **"Twitter branded" colors and styles**
 - [ ] User can **click a link within a tweet body** on tweet details view. The click will launch the web browser with relevant page opened.
 - [ ] User can **select "reply" from detail view to respond to a tweet**
   - [ ] User that wrote the original tweet is **automatically "@" replied in compose**
