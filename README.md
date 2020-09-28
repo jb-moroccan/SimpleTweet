@@ -56,6 +56,8 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+**Please note:** User can **sign in to Twitter** using OAuth login story is not shown because I already authorized the app and couldn't log out, but in the code you will see the login screen I have implemented. 
+
 <img src='SimpleTweetPart1.gif' title='Part 1' width='250'/> <img src='SimpleTweetPart2.gif' title='Part 2' width='250'/>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
