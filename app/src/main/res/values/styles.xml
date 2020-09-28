@@ -3,6 +3,15 @@
     <color name="twitter_blue">#ff1da1f2</color>
     <color name="light_gray">#ffccd6dd</color>
     <color name="twitter_blue_50">#801da1f2</color>
+    <color name="error_color">#a83254</color>
+
+    <style name="counterText">
+        <item name="android:textColor">@color/twitter_blue</item>
+    </style>
+
+    <style name="counterOverride">
+        <item name="android:textColor">@color/error_color</item>
+    </style>
 
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/twitter_blue</item>

@@ -11,6 +11,10 @@ import com.codepath.apps.restclienttemplate.models.SampleModel;
 import com.codepath.apps.restclienttemplate.models.SampleModelDao;
 import com.codepath.oauth.OAuthLoginActionBarActivity;
 
+import java.util.Objects;
+
+import static java.util.Objects.requireNonNull;
+
 public class LoginActivity extends OAuthLoginActionBarActivity<TwitterClient> {
 
 	SampleModelDao sampleModelDao;
@@ -37,8 +41,8 @@ public class LoginActivity extends OAuthLoginActionBarActivity<TwitterClient> {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.login, menu);
-		getSupportActionBar().setDisplayShowHomeEnabled(true);
-		getSupportActionBar().setIcon(R.drawable.ic_launcher_twitter_round);
+		requireNonNull(getSupportActionBar()).setDisplayShowHomeEnabled(true);
+		requireNonNull(getSupportActionBar()).setIcon(R.drawable.ic_launcher_twitter_round);
 		return true;
 	}
 
